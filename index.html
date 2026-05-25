@@ -73,7 +73,27 @@
                 <p>Настройка удаленного доступа, переезд в облако, автоматическое резервное копирование.</p>
             </div>
         </div>
-
+<div style="padding: 30px; background: #fff; border: 2px solid #fc0; border-radius: 15px; text-align: center; margin-bottom: 40px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+    <h3 style="margin-top:0; margin-bottom: 20px; font-size: 1.1rem; color: #2d3436;">Поиск в Яндексе</h3>
+    
+    <!-- Базовый адрес из твоей ссылки (ya.ru/search/) -->
+    <form class="search-form" action="https://ya.ru/search/" method="get" target="_blank" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; max-width: 600px; margin: 0 auto;">
+        
+        <!-- Твой реферальный CLID из ссылки (11855186) -->
+        <input type="hidden" name="clid" value="11855186">
+        
+        <!-- Сюда пользователь пишет текст, и он автоматически подставляется в параметр &text= -->
+        <input class="search-input" type="text" name="text" placeholder="Введите запрос..." required 
+            style="flex: 1; min-width: 200px; padding: 12px 15px; border: 1px solid #ccc; border-radius: 8px; outline: none; font-size: 16px;">
+        
+        <button class="search-btn" type="submit" 
+            style="padding: 12px 25px; background: #fc0; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 16px; transition: 0.2s;">
+            Найти
+        </button>
+    </form>
+    
+    <p style="font-size: 12px; color: #999; margin-top: 15px; margin-bottom: 0;">Поиск предоставлен партнёром Яндекс</p>
+</div>
 
         <section id="contacts" class="contacts">
             <h2>Нужна помощь специалиста?</h2>
