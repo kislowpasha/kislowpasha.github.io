@@ -2,11 +2,10 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Компьютерная помощь в Твери | Частный сисадмин Павел</title>
-<meta name="description" content="Срочная компьютерная помощь в Твери от частного мастера. Настройка ЭЦП, КриптоПро, ремонт компьютеров, ноутбуков и локальных сетей. Выезд на дом и в офис.">
-<meta name="keywords" content="компьютерная помощь тверь, ремонт компьютеров тверь, настройка эцп тверь, системный администратор тверь">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Компьютерная помощь в Твери — услуги системного администратора</title>
+    <title>Компьютерная помощь в Твери | Частный сисадмин Павел</title>
+    <meta name="description" content="Срочная компьютерная помощь в Твери от частного мастера. Настройка ЭЦП, КриптоПро, ремонт компьютеров, ноутбуков и локальных сетей. Выезд на дом и в офис.">
+    <meta name="keywords" content="компьютерная помощь тверь, ремонт компьютеров тверь, настройка эцп тверь, системный администратор тверь">
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #2d3436; line-height: 1.6; margin: 0; padding: 0; background: #fafafa; }
         .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
@@ -26,31 +25,43 @@
         .card span { font-size: 40px; }
         .card h3 { margin: 15px 0; font-size: 1.2rem; }
         .card p { color: #636e72; font-size: 0.9rem; margin: 0; }
-        .search-block { padding: 30px; background: #fff; border: 2px solid #fc0; border-radius: 15px; text-align: center; margin-bottom: 40px; }
+        .search-block { padding: 30px; background: #fff; border: 2px solid #fc0; border-radius: 15px; text-align: center; margin-bottom: 40px; box-shadow: 0 4px 12px rgba(0,0,0,0.03); }
         .search-form { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; max-width: 600px; margin: 0 auto; }
-        .search-input { flex: 1; min-width: 200px; padding: 10px 15px; border: 1px solid #ccc; border-radius: 8px; outline: none; font-size: 16px; }
-        .search-btn { padding: 10px 25px; background: #fc0; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 16px; }
+        .search-input { flex: 1; min-width: 200px; padding: 12px 15px; border: 1px solid #ccc; border-radius: 8px; outline: none; font-size: 16px; }
+        .search-btn { padding: 12px 25px; background: #fc0; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 16px; }
         .contacts { padding: 40px; background: #2d3436; color: white; border-radius: 20px; text-align: center; margin-bottom: 40px; }
         .contacts h2 { margin-bottom: 20px; }
         .contacts p { margin-bottom: 30px; opacity: 0.8; }
         .contact-buttons { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; }
-        .c-btn { color: white; text-decoration: none; border: 1px solid #fff; padding: 12px 24px; border-radius: 8px; background: #333; font-weight: bold; }
+        .c-btn { color: white; text-decoration: none; border: 1px solid #fff; padding: 12px 24px; border-radius: 8px; background: #333; font-weight: bold; display: inline-flex; align-items: center; gap: 8px; }
+        .c-btn-max { background: #6c5ce7; border-color: #6c5ce7; }
     </style>
 </head>
 <body>
 
-
- 
+    <!-- Шапка сайта -->
+    <header class="site-header">
+        <div class="header-left">
+            <a href="https://t.me" target="_blank" style="font-size: 18px;" title="Написать в Telegram">✈️</a>
+            <a href="tel:+79038024520">📞 +7 (903) 802-45-20</a>
+        </div>
+        <div class="site-title">Павел IT | Тверь</div>
+        <ul class="site-menu">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#contacts">Контакты</a></li>
         </ul>
     </header>
 
     <div class="container">
+        <!-- 1. Главный блок (Offer) -->
         <section class="hero">
             <h1>IT-специалист в Твери</h1>
             <p>Настройка ЭЦП, работа с госплощадками, обслуживание компьютеров и сетей. Профессиональная помощь для бизнеса и частных лиц.</p>
-           
+            <a href="tel:+79038024520" class="btn">Вызвать мастера</a>
         </section>
 
+        <!-- 2. Сетка услуг -->
         <div id="services" class="services">
             <div class="card card-active">
                 <span>🔑</span>
@@ -73,32 +84,27 @@
                 <p>Настройка удаленного доступа, переезд в облако, автоматическое резервное копирование.</p>
             </div>
         </div>
-<div style="padding: 30px; background: #fff; border: 2px solid #fc0; border-radius: 15px; text-align: center; margin-bottom: 40px; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
-    <h3 style="margin-top:0; margin-bottom: 20px; font-size: 1.1rem; color: #2d3436;">Поиск в Яндексе</h3>
-    
-    <!-- Базовый адрес из твоей ссылки (ya.ru/search/) -->
-    <form class="search-form" action="https://ya.ru/search/" method="get" target="_blank" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; max-width: 600px; margin: 0 auto;">
-        
-        <!-- Твой реферальный CLID из ссылки (11855186) -->
-        <input type="hidden" name="clid" value="11855186">
-        
-        <!-- Сюда пользователь пишет текст, и он автоматически подставляется в параметр &text= -->
-        <input class="search-input" type="text" name="text" placeholder="Введите запрос..." required 
-            style="flex: 1; min-width: 200px; padding: 12px 15px; border: 1px solid #ccc; border-radius: 8px; outline: none; font-size: 16px;">
-        
-        <button class="search-btn" type="submit" 
-            style="padding: 12px 25px; background: #fc0; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 16px; transition: 0.2s;">
-            Найти
-        </button>
-    </form>
-    
-    <p style="font-size: 12px; color: #999; margin-top: 15px; margin-bottom: 0;"></p>
-</div>
 
+        <!-- 3. Партнерский поиск Яндекса -->
+        <div class="search-block">
+            <h3 style="margin-top:0; margin-bottom: 20px; font-size: 1.1rem; color: #2d3436;">Поиск в Яндексе</h3>
+            <form class="search-form" action="https://ya.ru" method="get" target="_blank">
+                <input type="hidden" name="clid" value="11855186">
+                <input class="search-input" type="text" name="text" placeholder="Введите запрос..." required>
+                <button class="search-btn" type="submit">Найти</button>
+            </form>
+            <p style="font-size: 12px; color: #999; margin-top: 15px; margin-bottom: 0;">Поиск предоставлен партнёром Яндекс</p>
+        </div>
+
+        <!-- 4. Блок контактов -->
         <section id="contacts" class="contacts">
             <h2>Нужна помощь специалиста?</h2>
             <p>Оперативный выезд по Твери. Работаю с физическими и юридическими лицами.</p>
-   
+            <div class="contact-buttons">
+                <a href="https://t.me" target="_blank" class="c-btn">✈️ Telegram</a>
+                <!-- Мессенджер Max (Замени # на реальную ссылку, если она есть) -->
+                <a href="https://mail.ru" target="_blank" class="c-btn c-btn-max">💬 Max Messenger</a>
+                <a href="tel:+79038024520" class="c-btn">📞 +7 (903) 802-45-20</a>
             </div>
         </section>
     </div>
