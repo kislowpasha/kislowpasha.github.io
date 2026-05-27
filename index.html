@@ -1,126 +1,89 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Компьютерная помощь в Твери | Частный сисадмин Павел</title>
-<link rel="icon" type="image/png" href="/favicon.png">
-    <meta name="description" content="Срочная компьютерная помощь в Твери от частного мастера. Настройка ЭЦП, КриптоПро, ремонт компьютеров, ноутбуков и локальных сетей. Выезд на дом и в офис.">
-    <meta name="keywords" content="компьютерная помощь тверь, ремонт компьютеров тверь, настройка эцп тверь, системный администратор тверь">
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #2d3436; line-height: 1.6; margin: 0; padding: 0; background: #fafafa; }
-        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
-        .site-header { display: flex; justify-content: space-between; align-items: center; padding: 20px; background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
-        .header-left { display: flex; align-items: center; gap: 14px; }
-        .header-left a { text-decoration: none; color: #333; font-weight: bold; font-size: 15px; display: inline-flex; align-items: center; gap: 6px; }
-        .site-title { font-size: 18px; font-weight: bold; color: #2d3436; text-align: center; flex-grow: 1; }
-        .site-menu { display: flex; gap: 20px; list-style: none; margin: 0; padding: 0; }
-        .site-menu a { text-decoration: none; color: #636e72; font-size: 14px; text-transform: uppercase; font-weight: 500; }
-        .hero { padding: 60px 20px; text-align: center; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); border-radius: 20px; margin: 40px 0; }
-        .hero h1 { font-size: 2.5rem; margin-bottom: 15px; color: #2d3436; }
-        .hero p { font-size: 1.2rem; max-width: 700px; margin: 0 auto 30px; color: #636e72; }
-        .btn { background: #0984e3; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; }
-        .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 20px; margin-bottom: 40px; }
-        .card { padding: 25px; border: 1px solid #dfe6e9; border-radius: 15px; background: #fff; }
-        .card-active { border-top: 4px solid #0984e3; }
-        .card span { font-size: 40px; }
-        .card h3 { margin: 15px 0; font-size: 1.2rem; }
-        .card p { color: #636e72; font-size: 0.9rem; margin: 0; }
-        .search-block { padding: 30px; background: #fff; border: 2px solid #fc0; border-radius: 15px; text-align: center; margin-bottom: 40px; box-shadow: 0 4px 12px rgba(0,0,0,0.03); }
-        .search-form { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; max-width: 600px; margin: 0 auto; }
-        .search-input { flex: 1; min-width: 200px; padding: 12px 15px; border: 1px solid #ccc; border-radius: 8px; outline: none; font-size: 16px; }
-        .search-btn { padding: 12px 25px; background: #fc0; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 16px; }
-        .contacts { padding: 40px; background: #2d3436; color: white; border-radius: 20px; text-align: center; margin-bottom: 40px; }
-        .contacts h2 { margin-bottom: 20px; }
-        .contacts p { margin-bottom: 30px; opacity: 0.8; }
-        .contact-buttons { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; }
-        .c-btn { color: white; text-decoration: none; border: 1px solid #fff; padding: 12px 24px; border-radius: 8px; background: #333; font-weight: bold; display: inline-flex; align-items: center; gap: 8px; text-transform: none; }
-        .c-btn-max { background: #6c5ce7; border-color: #6c5ce7; }
-        .tg-icon { width: 20px; height: 20px; display: inline-block; vertical-align: middle; }
-    </style>
-</head>
-<body>
+---
+layout: default
+title: Компьютерная помощь в Твери | Частный сисадмин Павел
+description: Срочная компьютерная помощь в Твери от частного мастера. Настройка ЭЦП, КриптоПро, ремонт компьютеров, ноутбуков и сетей.
+---
 
-    <!-- Шапка сайта -->
-    <header class="site-header">
-        <div class="header-left">
-            <!-- Иконка Telegram -->
-            <a href="https://t.me/Tver69it" target="_blank" title="Написать в Telegram">
-                <svg class="tg-icon" viewBox="0 0 24 24" fill="none" xmlns="http://w3.org">
+<style>
+    .hero { padding: 60px 20px; text-align: center; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); border-radius: 20px; margin: 40px 0; }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 15px; color: #2d3436; }
+    .hero p { font-size: 1.2rem; max-width: 700px; margin: 0 auto 30px; color: #636e72; }
+    .btn { background: #0984e3; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; }
+    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 20px; margin-bottom: 40px; }
+    .card { padding: 25px; border: 1px solid #dfe6e9; border-radius: 15px; background: #fff; }
+    .card-active { border-top: 4px solid #0984e3; }
+    .card span { font-size: 40px; }
+    .card h3 { margin: 15px 0; font-size: 1.2rem; }
+    .card p { color: #636e72; font-size: 0.9rem; margin: 0; }
+    .search-block { padding: 30px; background: #fff; border: 2px solid #fc0; border-radius: 15px; text-align: center; margin-bottom: 40px; box-shadow: 0 4px 12px rgba(0,0,0,0.03); }
+    .search-form { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; max-width: 600px; margin: 0 auto; }
+    .search-input { flex: 1; min-width: 200px; padding: 12px 15px; border: 1px solid #ccc; border-radius: 8px; outline: none; font-size: 16px; }
+    .search-btn { padding: 12px 25px; background: #fc0; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 16px; }
+    .contacts { padding: 40px; background: #2d3436; color: white; border-radius: 20px; text-align: center; margin-bottom: 40px; }
+    .contacts h2 { margin-bottom: 20px; }
+    .contacts p { margin-bottom: 30px; opacity: 0.8; }
+    .contact-buttons { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; }
+    .c-btn { color: white; text-decoration: none; border: 1px solid #fff; padding: 12px 24px; border-radius: 8px; background: #333; font-weight: bold; display: inline-flex; align-items: center; gap: 8px; text-transform: none; }
+    .c-btn-max { background: #6c5ce7; border-color: #6c5ce7; }
+</style>
+
+<div class="container">
+    <!-- 1. Главный блок (Offer) -->
+    <section class="hero">
+        <h1>IT-специалист в Твери</h1>
+        <p>Настройка ЭЦП, работа с госплощадками, обслуживание компьютеров и сетей. Профессиональная помощь для бизнеса и частных лиц.</p>
+        <a href="tel:+79038024520" class="btn">Вызвать мастера</a>
+    </section>
+
+    <!-- 2. Сетка услуг -->
+    <div id="services" class="services">
+        <div class="card card-active">
+            <span>🔑</span>
+            <h3>ЭЦП и Госплощадки</h3>
+            <p>Настройка электронных подписей, КриптоПро, работа на ЭТП, порталах Госуслуг, Честный Знак и ЕГАИС.</p>
+        </div>
+        <div class="card">
+            <span>🛠️</span>
+            <h3>Ремонт и помощь</h3>
+            <p>Сложный ремонт ПК, удаление вирусов, восстановление данных, чистка и сборка на заказ.</p>
+        </div>
+        <div class="card">
+            <span>📡</span>
+            <h3>Сети и Wi-Fi</h3>
+            <p>Проектирование и монтаж ЛВС, бесшовный Wi-Fi в офисе и дома, видеонаблюдение.</p>
+        </div>
+        <div class="card">
+            <span>☁️</span>
+            <h3>Облака и Бекап</h3>
+            <p>Настройка удаленного доступа, переезд в облако, автоматическое резервное копирование.</p>
+        </div>
+    </div>
+
+    <!-- 3. Партнерский поиск Яндекса -->
+    <div class="search-block">
+        <h3 style="margin-top:0; margin-bottom: 20px; font-size: 1.1rem; color: #2d3436;">Поиск в Яндексе</h3>
+        <form class="search-form" action="https://ya.ru" method="get" target="_blank">
+            <input type="hidden" name="clid" value="11855186">
+            <input class="search-input" type="text" name="text" placeholder="Введите запрос..." required>
+            <button class="search-btn" type="submit">Найти</button>
+        </form>
+        <p style="font-size: 12px; color: #999; margin-top: 15px; margin-bottom: 0;">Поиск предоставлен партнёром Яндекс</p>
+    </div>
+
+    <!-- 4. Блок контактов -->
+    <section id="contacts" class="contacts">
+        <h2>Нужна помощь специалиста?</h2>
+        <p>Оперативный выезд по Твери. Работаю с физическими и юридическими лицами.</p>
+        <div class="contact-buttons">
+            <a href="https://t.me" target="_blank" class="c-btn">
+                <svg class="tg-icon" viewBox="0 0 24 24" fill="none" xmlns="http://w3.org" style="width:20px; height:20px; vertical-align:middle;">
                     <path d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z" fill="#24A1DE"/>
                     <path d="M5.38534 11.7584C8.956 10.2032 11.3368 9.176 12.5276 8.67681C15.9276 7.25121 16.634 7.00321 17.0948 6.99521C17.1964 6.99361 17.4228 7.01841 17.5696 7.13761C17.6936 7.23841 17.728 7.37441 17.7444 7.47041C17.7604 7.56561 17.7804 7.78161 17.7644 7.94961C17.5816 9.87041 16.7916 14.5204 16.3888 16.6784C16.2184 17.5912 15.8824 17.8968 15.5564 17.9264C14.848 17.9912 14.3108 17.4584 13.6252 17.0096C12.5516 16.3064 11.9444 15.868 10.9032 15.1816C9.70001 14.3892 10.4796 13.9532 11.166 13.2408C11.3456 13.0544 14.464 10.2184 14.5244 9.96041C14.532 9.92841 14.5388 9.80801 14.4672 9.74481C14.3956 9.68121 14.29 9.70321 14.214 9.72041C14.1068 9.74481 12.3992 10.8744 9.09641 13.1044C8.61241 13.4364 8.17321 13.5984 7.77881 13.5896C7.34441 13.5804 6.50761 13.344 5.88561 13.1416C5.12281 12.8936 4.51601 12.7624 4.56881 12.3416C4.59641 12.1224 4.89761 11.9 5.38534 11.7584Z" fill="white"/>
                 </svg>
+                Telegram
             </a>
-            <!-- Иконка MAX Мессенджера -->
-            <a href="https://max.ru/u/f9LHodD0cOLZ6l9NP0GNCbDsID6uvwUHyyakdDl7FBhclDgLHSrJsIWEeng" target="_blank" style="font-size: 18px;" title="Написать в MAX">💬</a>
-            <!-- Телефон -->
-            <a href="tel:+79038024520">📞 +7 (903) 802-45-20</a>
+            <a href="https://max.ru" target="_blank" class="c-btn c-btn-max">💬 Max Messenger</a>
+            <a href="tel:+79038024520" class="c-btn">📞 +7 (903) 802-45-20</a>
         </div>
-        <div class="site-title">Павел IT | Тверь</div>
-        <ul class="site-menu">
-            <li><a href="#">Главная</a></li>
-            <li><a href="#services">Услуги</a></li>
-            <li><a href="#contacts">Контакты</a></li>
-        </ul>
-    </header>
-
-    <div class="container">
-        <!-- 1. Главный блок (Offer) -->
-        <section class="hero">
-            <h1>IT-специалист в Твери</h1>
-            <p>Настройка ЭЦП, работа с госплощадками, обслуживание компьютеров и сетей. Профессиональная помощь для бизнеса и частных лиц.</p>
-            <a href="tel:+79038024520" class="btn">Вызвать мастера</a>
-        </section>
-
-        <!-- 2. Сетка услуг -->
-        <div id="services" class="services">
-            <div class="card card-active">
-                <span>🔑</span>
-                <h3>ЭЦП и Госплощадки</h3>
-                <p>Настройка электронных подписей, КриптоПро, работа на ЭТП, порталах Госуслуг, Честный Знак и ЕГАИС.</p>
-            </div>
-            <div class="card">
-                <span>🛠️</span>
-                <h3>Ремонт и помощь</h3>
-                <p>Сложный ремонт ПК, удаление вирусов, восстановление данных, чистка и сборка на заказ.</p>
-            </div>
-            <div class="card">
-                <span>📡</span>
-                <h3>Сети и Wi-Fi</h3>
-                <p>Проектирование и монтаж ЛВС, бесшовный Wi-Fi в офисе и дома, видеонаблюдение.</p>
-            </div>
-            <div class="card">
-                <span>☁️</span>
-                <h3>Облака и Бекап</h3>
-                <p>Настройка удаленного доступа, переезд в облако, автоматическое резервное копирование.</p>
-            </div>
-        </div>
-
-        <!-- 3. Партнерский поиск Яндекса -->
-        <div class="search-block">
-            <h3 style="margin-top:0; margin-bottom: 20px; font-size: 1.1rem; color: #2d3436;">Поиск в Яндексе</h3>
-            <form class="search-form" action="https://ya.ru" method="get" target="_blank">
-                <input type="hidden" name="clid" value="11855186">
-                <input class="search-input" type="text" name="text" placeholder="Введите запрос..." required>
-                <button class="search-btn" type="submit">Найти</button>
-            </form>
-            <p style="font-size: 12px; color: #999; margin-top: 15px; margin-bottom: 0;"></p>
-        </div>
-
-        <!-- 4. Блок контактов -->
-        <section id="contacts" class="contacts">
-            <h2>Нужна помощь специалиста?</h2>
-            <p>Оперативный выезд по Твери. Работаю с физическими и юридическими лицами.</p>
-            <div class="contact-buttons">
-                <!-- Кнопка Telegram -->
-                <a href="https://t.me/Tver69it" target="_blank" class="c-btn">
-                    <svg class="tg-icon" viewBox="0 0 24 24" fill="none" xmlns="http://w3.org">
-                        <path d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z" fill="#24A1DE"/>
-                        <path d="M5.38534 11.7584C8.956 10.2032 11.3368 9.176 12.5276 8.67681C15.9276 7.25121 16.634 7.00321 17.0948 6.99521C17.1964 6.99361 17.4228 7.01841 17.5696 7.13761C17.6936 7.23841 17.728 7.37441 17.7444 7.47041C17.7604 7.56561 17.7804 7.78161 17.7644 7.94961C17.5816 9.87041 16.7916 14.5204 16.3888 16.6784C16.2184 17.5912 15.8824 17.8968 15.5564 17.9264C14.848 17.9912 14.3108 17.4584 13.6252 17.0096C12.5516 16.3064 11.9444 15.868 10.9032 15.1816C9.70001 14.3892 10.4796 13.9532 11.166 13.2408C11.3456 13.0544 14.464 10.2184 14.5244 9.96041C14.532 9.92841 14.5388 9.80801 14.4672 9.74481C14.3956 9.68121 14.29 9.70321 14.214 9.72041C14.1068 9.74481 12.3992 10.8744 9.09641 13.1044C8.61241 13.4364 8.17321 13.5984 7.77881 13.5896C7.34441 13.5804 6.50761 13.344 5.88561 13.1416C5.12281 12.8936 4.51601 12.7624 4.56881 12.3416C4.59641 12.1224 4.89761 11.9 5.38534 11.7584Z" fill="white"/>
-                    </svg>
-                    Telegram
-                </a>
-                <!-- Кнопка MAX Мессенджера -->
-                <a href="https://max.ru/u/f9LHodD0cOLZ6l9NP0GNCbDsID6uvwUHyyakdDl7FBhclDgLHSrJsIWEeng" target="_blank" class="c-btn c-btn-max">💬 Max Messenger</a>
-                <!-- Кнопка Номера Телефона -->
-                <a href="tel:+79038024520" class="c-btn">📞 +7 (903) 802-45-20</a>
+    </section>
+</div>
