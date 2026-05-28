@@ -42,3 +42,8 @@ description: Как настроить Яндекс Браузер для раб
 Настройка рабочего места для бухгалтера, участника госзакупок часто не получается из-за конфликтов версий КриптоПро или операционной системы.
 
 Если у вас возникают ошибки шифрования, не ставится плагин или государственные сайты упорно «не видят» вашу ЭЦП — свяжитесь со мной. Настрою всё удалённо через Ассистент или приеду к вам лично в Твери!
+<!-- Блок счетчика просмотров -->
+<div style="margin-top: 30px; padding-top: 15px; border-top: 1px dashed #dfe6e9; color: #b2bec3; font-size: 0.85rem; display: flex; align-items: center; gap: 5px;">
+    👁️ Просмотров статьи: 
+    <img src="https://hitwebcounter.com" title="Просмотры" Alt="Counter" border="0" style="vertical-align: middle; height: 16px; filter: grayscale(100%) opacity(70%);">
+</div>
