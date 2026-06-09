@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Компьютерная помощь в Твери — ремонт компьютеров и настройка ЭЦП
+title: Компьютерная помощь в Твери — ремонт ПК и настройка ЭЦП
 description: Срочная компьютерная помощь в Твери от частного мастера. Настройка ЭЦП, КриптоПро, ремонт компьютеров, ноутбуков и сетей.
 ---
 
@@ -8,43 +8,23 @@ description: Срочная компьютерная помощь в Твери 
     .hero { padding: 60px 20px; text-align: center; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); border-radius: 20px; margin: 40px 0; }
     .hero h1 { font-size: 2.5rem; margin-bottom: 15px; color: #2d3436; }
     .hero p { font-size: 1.2rem; max-width: 700px; margin: 0 auto 30px; color: #636e72; }
-    .btn { background: #0984e3; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; cursor: pointer; border: none; font-size: 16px; }
-    
-    /* Сетка услуг */
+    .btn { background: #0984e3; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block; }
     .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 20px; margin-bottom: 40px; }
-    .card { padding: 25px; border: 1px solid #dfe6e9; border-radius: 15px; background: #fff; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; }
-    .card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.05); }
+    .card { padding: 25px; border: 1px solid #dfe6e9; border-radius: 15px; background: #fff; }
     .card-active { border-top: 4px solid #0984e3; }
     .card span { font-size: 40px; }
-    .card h3 { margin: 15px 0; font-size: 1.2rem; color: #2d3436; }
+    .card h3 { margin: 15px 0; font-size: 1.2rem; }
     .card p { color: #636e72; font-size: 0.9rem; margin: 0; }
-    .card-hint { display: block; margin-top: 15px; font-size: 0.8rem; color: #0984e3; font-weight: bold; }
-
-    /* Поиск Яндекса */
     .search-block { padding: 30px; background: #fff; border: 2px solid #fc0; border-radius: 15px; text-align: center; margin-bottom: 40px; box-shadow: 0 4px 12px rgba(0,0,0,0.03); }
     .search-form { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; max-width: 600px; margin: 0 auto; }
     .search-input { flex: 1; min-width: 200px; padding: 12px 15px; border: 1px solid #ccc; border-radius: 8px; outline: none; font-size: 16px; }
     .search-btn { padding: 12px 25px; background: #fc0; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 16px; }
-    
-    /* Блок контактов */
     .contacts { padding: 40px; background: #2d3436; color: white; border-radius: 20px; text-align: center; margin-bottom: 40px; }
     .contacts h2 { margin-bottom: 20px; }
     .contacts p { margin-bottom: 30px; opacity: 0.8; }
     .contact-buttons { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; }
     .c-btn { color: white; text-decoration: none; border: 1px solid #fff; padding: 12px 24px; border-radius: 8px; background: #333; font-weight: bold; display: inline-flex; align-items: center; gap: 8px; text-transform: none; }
     .c-btn-max { background: #6c5ce7; border-color: #6c5ce7; }
-
-    /* Стили для всплывающих окон (Модалки) */
-    .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.6); display: none; justify-content: center; align-items: center; z-index: 1000; padding: 20px; box-sizing: border-box; }
-    .modal-window { background: #fff; padding: 30px; border-radius: 16px; max-width: 550px; width: 100%; position: relative; box-shadow: 0 10px 30px rgba(0,0,0,0.15); animation: fadeIn 0.3s ease; }
-    .modal-close { position: absolute; top: 15px; right: 20px; font-size: 28px; color: #b2bec3; cursor: pointer; border: none; background: none; }
-    .modal-close:hover { color: #2d3436; }
-    .modal-window h3 { margin-top: 0; font-size: 1.5rem; color: #2d3436; border-bottom: 2px solid #f1f2f6; padding-bottom: 10px; }
-    .modal-price-table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-    .modal-price-table td { padding: 10px 0; border-bottom: 1px solid #f1f2f6; }
-    .modal-price-table td:last-child { text-align: right; font-weight: bold; color: #0984e3; }
-    
-    @keyframes fadeIn { from { opacity: 0; transform: translateY(-20px); } to { opacity: 1; transform: translateY(0); } }
 </style>
 
 <div class="container">
@@ -55,34 +35,27 @@ description: Срочная компьютерная помощь в Твери 
         <a href="tel:+79038024520" class="btn">Вызвать мастера</a>
     </section>
 
-    <!-- 2. Сетка услуг (Карточки теперь кликабельны) -->
+    <!-- 2. Сетка услуг -->
     <div id="services" class="services">
-        <div class="card card-active" onclick="openModal('modal-ecp')">
+        <div class="card card-active">
             <span>🔑</span>
             <h3>ЭЦП и Госплощадки</h3>
             <p>Настройка электронных подписей, КриптоПро, работа на ЭТП, порталах Госуслуг, Честный Знак и ЕИС.</p>
-            <span class="card-hint">📋 Подробнее и цены →</span>
         </div>
-        
-        <div class="card" onclick="openModal('modal-repair')">
+        <div class="card">
             <span>🛠️</span>
-            <h3>Ремонт компьютеров и ноутбуков</h3>
+            <h3>Ремонт и помощь</h3>
             <p>Сложный ремонт ПК, удаление вирусов, восстановление данных, чистка и сборка на заказ.</p>
-            <span class="card-hint">📋 Подробнее и цены →</span>
         </div>
-        
-        <div class="card" onclick="openModal('modal-net')">
+        <div class="card">
             <span>📡</span>
-            <h3>Настройка локальных сетей и Wi-Fi</h3>
-            <p>Проектирование и монтаж ЛВС, бесшовный Wi-Fi в офисе и дома, видеонаблюдение.</p>
-            <span class="card-hint">📋 Подробнее и цены →</span>
+            <h3>Сети и Wi-Fi</h3>
+            <p>Проектирование и монтаж ЛВС, бесшовный Wi-Fi в офисе and дома, видеонаблюдение.</p>
         </div>
-        
-        <div class="card" onclick="openModal('modal-cloud')">
+        <div class="card">
             <span>☁️</span>
             <h3>Облака и Бекап</h3>
             <p>Настройка удаленного доступа, переезд в облако, автоматическое резервное копирование.</p>
-            <span class="card-hint">📋 Подробнее и цены →</span>
         </div>
     </div>
 
@@ -115,29 +88,21 @@ description: Срочная компьютерная помощь в Твери 
     </section>
 </div>
 
-<!-- Окно 1: ЭЦП -->
-<div id="modal-ecp" class="modal-overlay" onclick="closeModal(event, 'modal-ecp')">
-    <div class="modal-window">
-        <button class="modal-close" onclick="document.getElementById('modal-ecp').style.display='none'">&times;</button>
-        <h3>🔑 ЭЦП и Госплощадки</h3>
-        <p>Полный комплекс услуг по настройке криптографии и доступов для бизнеса:</p>
-        <table class="modal-price-table">
-            <tr><td>Настройка ЭЦП и КриптоПро CSP</td><td>от 1 500 ₽</td></tr>
-            <tr><td>Настройка рабочего места под Госуслуги / Честный Знак</td><td>от 2 000 ₽</td></tr>
-            <tr><td>Регистрация и настройка ЕГАИС / Налоговая</td><td>от 2 500 ₽</td></tr>
-            <tr><td>Установка сертификатов ФНС на MacOS</td><td>от 3 000 ₽</td></tr>
-        </table>
-        <div style="text-align: center; margin-top: 25px;"><a href="tel:+79038024520" class="btn">Заказать настройку</a></div>
-    </div>
-</div>
-
-<!-- Окно 2: Ремонт компьютера -->
-<div id="modal-repair" class="modal-overlay" onclick="closeModal(event, 'modal-repair')">
-    <div class="modal-window">
-        <button class="modal-close" onclick="document.getElementById('modal-repair').style.display='none'">&times;</button>
-        <h3>🛠️ Ремонт компьютеров и ноутбуков</h3>
-        <p>Оперативная компьютерная помощь с выездом мастера по Твери:</p>
-        <table class="modal-price-table">
-            <tr><td>Диагностика неисправности (при ремонте)</td><td>Бесплатно</td></tr>
-            <tr><td>Чистка от пыли и замена термопасты</td><td>от 1 200 ₽</td></tr>
-            <tr><td>Удаление вирусов и ускорение работы системы</td><td>от 1 000 ₽</td></tr>
+<!-- Микроразметка Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Павел IT | Компьютерная помощь Тверь",
+  "image": "https://tver-it.ru",
+  "telephone": "+79038024520",
+  "url": "https://tver-it.ru",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Тверь",
+    "addressRegion": "Тверская область",
+    "addressCountry": "RU"
+  },
+  "priceRange": "₽₽"
+}
+</script>
