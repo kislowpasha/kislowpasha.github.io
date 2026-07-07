@@ -1,7 +1,7 @@
 baseURL = "https://tver-it.ru"
 languageCode = "ru-ru"
 title = "Компьютерная помощь в Твери"
-theme = "terminal1"
+theme = "terminal"
 
 [params]
   author = "Павел"
