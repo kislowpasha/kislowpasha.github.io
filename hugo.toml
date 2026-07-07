@@ -6,7 +6,7 @@ theme = "terminal"
 [params]
   author = "Павел"
   description = "Настройка КриптоПро, ЭЦП, доступ к электронным прощадкам. Помощь удаленно через Ассистент в Твери."
-  
+  logoText = ""
   # Цвета на выбор: "orange", "green", "blue", "pink", "red"
   themeColor = "red" 
   
