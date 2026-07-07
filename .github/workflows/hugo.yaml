@@ -20,14 +20,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          submodules: recursive
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.145.0'
           extended: true
+
+      - name: Download Clean Theme
+        run: |
+          rm -rf themes/terminal
+          mkdir -p themes/terminal
+          git clone https://github.com themes/terminal
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
