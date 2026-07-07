@@ -30,7 +30,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Install Hugo
+      - name: - name: Install Hugo
         run: |
           wget https://github.com
           tar -xf hugo_extended_0.145.0_linux-amd64.tar.gz
