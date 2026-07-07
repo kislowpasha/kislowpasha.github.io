@@ -30,11 +30,11 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Setup Hugo
-        uses: actions/configure-hugo@v1
-        with:
-          plugins: true
-          extended: true
+      - name: Install Hugo
+        run: |
+          wget https://github.com
+          tar -xf hugo_extended_0.145.0_linux-amd64.tar.gz
+          sudo mv hugo /usr/local/bin/
 
       - name: Build with Hugo
         run: hugo --minify
