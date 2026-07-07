@@ -31,7 +31,7 @@ jobs:
         run: |
           rm -rf themes/terminal
           mkdir -p themes/terminal
-          git clone https://github.com themes/terminal
+          git clone https://github.com/themes/terminal
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
