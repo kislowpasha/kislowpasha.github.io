@@ -1,11 +1,11 @@
 baseURL = "https://tver-it.ru"
 languageCode = "ru-ru"
-title = "Удаленная ИТ-помощь Тверь"
+title = "Компьютерная помощь в Твери"
 theme = "terminal"
 
 [params]
   author = "Павел"
-  description = "Настройка КриптоПро, ЭЦП, серверов. Строго удаленно через AnyDesk в Твери."
+  description = "Настройка КриптоПро, ЭЦП, доступ к электронным прощадкам. Помощь удаленно через Ассистент в Твери."
   
   # Цвета на выбор: "orange", "green", "blue", "pink", "red"
   themeColor = "green" 
