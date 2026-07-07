@@ -8,7 +8,7 @@ theme = "terminal"
   description = "Настройка КриптоПро, ЭЦП, доступ к электронным прощадкам. Помощь удаленно через Ассистент в Твери."
   
   # Цвета на выбор: "orange", "green", "blue", "pink", "red"
-  themeColor = "green" 
+  themeColor = "red" 
   
   # Строка приглашения командной строки
   prompt = "pasha@tver-it.ru:~$"
