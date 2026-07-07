@@ -1,0 +1,27 @@
+baseURL = "https://tver-it.ru"
+languageCode = "ru-ru"
+title = "Удаленная ИТ-помощь Тверь"
+theme = "terminal"
+
+[params]
+  author = "Павел"
+  description = "Настройка КриптоПро, ЭЦП, серверов. Строго удаленно через AnyDesk в Твери."
+  
+  # Цвета на выбор: "orange", "green", "blue", "pink", "red"
+  themeColor = "green" 
+  
+  # Строка приглашения командной строки
+  prompt = "pasha@tver-it.ru:~$"
+
+[menu]
+  # Переключатель страниц вверху терминала
+  [[menu.main]]
+    identifier = "home"
+    name = "Главная"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "posts"
+    name = "Блог"
+    url = "/posts/"
+    weight = 2
