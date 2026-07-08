@@ -6,9 +6,10 @@ theme = "terminal"
 [params]
   author = "Павел"
   description = "Настройка КриптоПро, ЭЦП, доступ к электронным прощадкам. Помощь удаленно через Ассистент в Твери."
-  logoText = ""
-  # Цвета на выбор: "orange", "green", "blue", "pink", "red"
-  themeColor = "red" 
+  themeColor = "green" 
+  
+  # Вот эта строчка заменит надпись Terminal на твой текст:
+  logoText = "Компьютерная помощь в Твери"
   
   # Строка приглашения командной строки
   prompt = "pasha@tver-it.ru:~$"
