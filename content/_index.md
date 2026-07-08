@@ -20,8 +20,4 @@ type: "page"
 
 
 
-      <textarea name="message" rows="3" required style="width: 100%; background: #111; border: 1px solid #00ff00; color: #00ff00; padding: 8px; font-family: monospace; outline: none; resize: none; box-sizing: border-box;"></textarea>
-    </div>
-    <button type="submit" style="background: #00ff00; color: #000; border: none; padding: 10px; font-weight: bold; cursor: pointer; font-family: monospace; text-transform: uppercase;">[ Отправить заявку ]</button>
-  </form>
-</div>
+   
