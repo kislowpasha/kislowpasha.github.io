@@ -9,12 +9,12 @@ theme = "terminal"
   themeColor = "green" 
   prompt = "pasha@tver-it.ru:~$"
 
-# Вот этот блок отвечает за замену надписи Terminal:
 [params.logo]
   logoText = "Компьютерная помощь в Твери"
   logoHomeLink = "/"
 
 [menu]
+  # Стандартные разделы сайта
   [[menu.main]]
     identifier = "home"
     name = "Главная"
@@ -25,3 +25,24 @@ theme = "terminal"
     name = "Блог"
     url = "/posts/"
     weight = 2
+
+  # Кликабельный телефон (при нажатии со смартфона сразу пойдет вызов)
+  [[menu.main]]
+    identifier = "phone"
+    name = "📞 +7(903)802-45-20"
+    url = "tel:+79038024520"
+    weight = 3
+
+  # Ссылка на твой Telegram
+  [[menu.main]]
+    identifier = "telegram"
+    name = "💬 Telegram"
+    url = "https://t.me"
+    weight = 4
+
+  # Ссылка на твой Max Messenger
+  [[menu.main]]
+    identifier = "max"
+    name = "💬 Max"
+    url = "https://max.ru"
+    weight = 5
