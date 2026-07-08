@@ -1,4 +1,8 @@
 baseURL = "https://tver-it.ru"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 languageCode = "ru-ru"
 title = "Компьютерная помощь в Твери"
 theme = "terminal"
