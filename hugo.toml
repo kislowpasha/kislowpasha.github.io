@@ -36,7 +36,7 @@ theme = "terminal"
   # Ссылка на твой Telegram
   [[menu.main]]
     identifier = "telegram"
-    name = "💬 Telegram"
+    name = "<img src='/tg-icon.png' style='height: 20px; width: 20px; vertical-align: middle;' alt='Telegram'>"
     url = "https://t.me/Tver69it"
     weight = 4
 
