@@ -33,7 +33,7 @@ theme = "terminal"
   # Кликабельный телефон (при нажатии со смартфона сразу пойдет вызов)
   [[menu.main]]
     identifier = "phone"
-    name = "📞 +7(903)802-45-20"
+    name = " +7(903)802-45-20"
     url = "tel:+79038024520"
     weight = 3
 
@@ -47,6 +47,6 @@ theme = "terminal"
   # Ссылка на твой Max Messenger
   [[menu.main]]
     identifier = "max"
-    name = "💬 Max"
+    name = "Max"
     url = "https://max.ru/u/f9LHodD0cOLZ6l9NP0GNCbDsID6uvwUHyyakdDl7FBhclDgLHSrJsIWEeng"
     weight = 5
