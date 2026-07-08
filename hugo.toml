@@ -37,7 +37,7 @@ theme = "terminal"
   [[menu.main]]
     identifier = "telegram"
     name = "💬 Telegram"
-    url = "https://t.me"
+    url = "https://t.me/Tver69it"
     weight = 4
 
   # Ссылка на твой Max Messenger
