@@ -44,5 +44,5 @@ theme = "terminal"
   [[menu.main]]
     identifier = "max"
     name = "💬 Max"
-    url = "https://max.ru"
+    url = "https://max.ru/u/f9LHodD0cOLZ6l9NP0GNCbDsID6uvwUHyyakdDl7FBhclDgLHSrJsIWEeng"
     weight = 5
