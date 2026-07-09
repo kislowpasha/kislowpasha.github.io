@@ -10,7 +10,7 @@ theme = "terminal"
 [params]
   author = "Павел"
   description = "Настройка КриптоПро, ЭЦП, доступ к электронным прощадкам. Помощь удаленно через Ассистент в Твери."
-  themeColor = "green" 
+  themeColor = "white" 
   prompt = "pasha@tver-it.ru:~$"
 
 [params.logo]
