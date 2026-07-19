@@ -12,6 +12,7 @@ theme = "congo"
   description = "Настройка КриптоПро, ЭЦП, доступ к электронным площадкам. Помощь удаленно через Ассистент в Твери."
   themeColor = "light" 
   prompt = "pasha@tver-it.ru:~$"
+  favicon = "/favicon.ico" # Перенесли сюда
 
 [params.author]
   name = "Павел"
@@ -46,5 +47,3 @@ theme = "congo"
     name = "Max"
     url = "https://max.ru/u/f9LHodD0cOLZ6l9NP0GNCbDsID6uvwUHyyakdDl7FBhclDgLHSrJsIWEeng"
     weight = 5
-    [params]
-  favicon = "/favicon.ico"
