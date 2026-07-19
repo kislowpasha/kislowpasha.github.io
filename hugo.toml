@@ -46,3 +46,5 @@ theme = "congo"
     name = "Max"
     url = "https://max.ru/u/f9LHodD0cOLZ6l9NP0GNCbDsID6uvwUHyyakdDl7FBhclDgLHSrJsIWEeng"
     weight = 5
+    [params]
+  favicon = "/favicon.ico"
