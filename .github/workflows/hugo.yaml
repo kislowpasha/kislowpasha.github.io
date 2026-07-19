@@ -30,8 +30,8 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Build with Hugo
-        run: hugo --minify --theme terminal
+     - name: Build with Hugo
+        run: hugo --minify
         env:
           HUGO_THEMESDIR: themes
 
