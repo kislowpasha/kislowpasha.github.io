@@ -9,12 +9,14 @@ theme = "congo"
       unsafe = true
 
 [params]
-  author = "Павел"
-  description = "Настройка КриптоПро, ЭЦП, доступ к электронным прощадкам. Помощь удаленно через Ассистент в Твери."
+  description = "Настройка КриптоПро, ЭЦП, доступ к электронным площадкам. Помощь удаленно через Ассистент в Твери."
   themeColor = "light" 
   prompt = "pasha@tver-it.ru:~$"
 
-[params.logo]
+[params.author]
+  name = "Павел"
+
+[params.header]
   logoText = "Компьютерная помощь в Твери"
   logoHomeLink = "/"
 
