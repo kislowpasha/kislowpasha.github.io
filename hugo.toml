@@ -1,11 +1,12 @@
-baseURL = "https://tver-it.ru"
+baseURL = "https://tver-it.ru/"
+languageCode = "ru-ru"
+title = "Компьютерная помощь в Твери"
+theme = "congo"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-languageCode = "ru-ru"
-title = "Компьютерная помощь в Твери"
-theme = "congo"
 
 [params]
   author = "Павел"
@@ -18,7 +19,6 @@ theme = "congo"
   logoHomeLink = "/"
 
 [menu]
-  # Стандартные разделы сайта
   [[menu.main]]
     identifier = "home"
     name = "Главная"
@@ -29,22 +29,16 @@ theme = "congo"
     name = "Блог"
     url = "/posts/"
     weight = 2
-
-  # Кликабельный телефон (при нажатии со смартфона сразу пойдет вызов)
   [[menu.main]]
     identifier = "phone"
     name = " +7(903)802-45-20"
     url = "tel:+79038024520"
     weight = 3
-
-  # Ссылка на твой Telegram
   [[menu.main]]
     identifier = "telegram"
     name = "Telegram"
     url = "https://t.me/Tver69it"
     weight = 4
-
-  # Ссылка на твой Max Messenger
   [[menu.main]]
     identifier = "max"
     name = "Max"
