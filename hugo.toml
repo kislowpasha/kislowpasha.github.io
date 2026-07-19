@@ -1,5 +1,5 @@
 baseURL = "https://tver-it.ru/"
-languageCode = "ru-ru"
+locale = "ru-ru"
 title = "Компьютерная помощь в Твери"
 theme = "congo"
 
