@@ -8,15 +8,15 @@ layout: "homepage"
 
 Работаю **по всей Твери**:
 
-- ✅ удаленно через <a href="https://tver-it.ru/programs/assistant/" target="_blank" rel="noopener noreferrer"><strong>Ассистент</strong></a>;
-- ✅ с выездом к клиенту;
-- ✅ быстро, без лишних услуг и навязывания ремонта.
+- удаленно через <a href="https://tver-it.ru/programs/assistant/" target="_blank" rel="noopener noreferrer"><strong>Ассистент</strong></a>;
+- с выездом к клиенту;
+- быстро, без лишних услуг и навязывания ремонта.
 
-> 📞 **Телефон:** <a href="tel:+79038024520">+7 (903) 802-45-20</a>
+> **Телефон:** <a href="tel:+79038024520">+7 (903) 802-45-20</a>
 >
-> 💬 **Telegram:** <a href="https://t.me/Tver69it" target="_blank" rel="noopener noreferrer">t.me/Tver69it</a>
+> **Telegram:** <a href="https://t.me/Tver69it" target="_blank" rel="noopener noreferrer">t.me/Tver69it</a>
 >
-> 📱 **MAX:** <a href="https://max.ru/u/f9LHodD0cOLZ6l9NP0GNCbDsID6uvwUHyyakdDl7FBhclDgLHSrJsIWEeng" target="_blank" rel="noopener noreferrer">max.ru</a>
+> **MAX:** <a href="https://max.ru/u/f9LHodD0cOLZ6l9NP0GNCbDsID6uvwUHyyakdDl7FBhclDgLHSrJsIWEeng" target="_blank" rel="noopener noreferrer">max.ru</a>
 
 ---
 
