@@ -8,7 +8,7 @@ layout: "homepage"
 
 Работаю **по всей Твери**:
 
-- ✅ удаленно через **Ассистент**;
+- ✅ удаленно через <a href="https://tver-it.ru/programs/assistant/" target="_blank" rel="noopener noreferrer"><strong>Ассистент</strong></a>;
 - ✅ с выездом к клиенту;
 - ✅ быстро, без лишних услуг и навязывания ремонта.
 
