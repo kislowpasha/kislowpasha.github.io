@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Компьютерная помощь в Твери</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on Компьютерная помощь в Твери</description>
+		<generator>Hugo</generator>
+		<language>ru-ru</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title></title>
+				<link>http://localhost:1313/posts/readme/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/readme/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Как подписать документ электронной подписью (ЭЦП) в Твери</title>
+				<link>http://localhost:1313/posts/2026-06-03-kak-podpisat-document-ecp/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/2026-06-03-kak-podpisat-document-ecp/</guid>
+				<description>&lt;p&gt;На данный момент самый простой способ подписать документ с помощью электронной подписи (ЭП) — это использование программы &lt;strong&gt;КриптоПро CSP 5.0&lt;/strong&gt;. Поддержка старой версии КриптоПро 4.0 официально завершилась, поэтому все контролирующие органы и государственные порталы требуют использовать актуальную пятую версию.&lt;/p&gt;&#xA;&lt;p&gt;Скачать дистрибутив можно на &lt;a href=&#34;https://cryptopro.ru&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;официальном сайте разработчика&lt;/a&gt;. Обратите внимание, что после первой установки программы вы получите бесплатный пробный период со всеми функциями на 3 месяца.&lt;/p&gt;&#xA;&lt;h2 id=&#34;способ-1-подписание-через-встроенные-инструменты-криптопро&#34; class=&#34;relative group&#34;&gt;Способ 1. Подписание через встроенные «Инструменты КриптоПро» &lt;span class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100&#34;&gt;&lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34; style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%d1%81%d0%bf%d0%be%d1%81%d0%be%d0%b1-1-%d0%bf%d0%be%d0%b4%d0%bf%d0%b8%d1%81%d0%b0%d0%bd%d0%b8%d0%b5-%d1%87%d0%b5%d1%80%d0%b5%d0%b7-%d0%b2%d1%81%d1%82%d1%80%d0%be%d0%b5%d0%bd%d0%bd%d1%8b%d0%b5-%d0%b8%d0%bd%d1%81%d1%82%d1%80%d1%83%d0%bc%d0%b5%d0%bd%d1%82%d1%8b-%d0%ba%d1%80%d0%b8%d0%bf%d1%82%d0%be%d0%bf%d1%80%d0%be&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;После успешной установки программы находим через поиск операционной системы утилиту &lt;strong&gt;«Инструменты КриптоПро»&lt;/strong&gt; и запускаем её.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Настройка Яндекс Браузера для Госуслуг и ЭЦП в Твери</title>
+				<link>http://localhost:1313/posts/2026-05-28-yandex-browser-tver/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/2026-05-28-yandex-browser-tver/</guid>
+				<description>&lt;p&gt;Сегодня для стабильной работы на российских государственных порталах, электронных торговых площадках (ЭТП) и сервисах вроде Госуслуг, Честного Знака или ЕИС использование отечественного софта стало обязательным требованием. Лучшим решением для этого является Яндекс Браузер.&lt;/p&gt;&#xA;&lt;p&gt;В этой статье мы разберем, почему он необходим, какие скрытые настройки сети нужно включить и как подготовить компьютер к работе с государственными ресурсами в Твери.&lt;/p&gt;&#xA;&lt;h2 id=&#34;почему-именно-яндекс-браузер&#34; class=&#34;relative group&#34;&gt;Почему именно Яндекс Браузер? &lt;span class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100&#34;&gt;&lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34; style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%d0%bf%d0%be%d1%87%d0%b5%d0%bc%d1%83-%d0%b8%d0%bc%d0%b5%d0%bd%d0%bd%d0%be-%d1%8f%d0%bd%d0%b4%d0%b5%d0%ba%d1%81-%d0%b1%d1%80%d0%b0%d1%83%d0%b7%d0%b5%d1%80&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Поддержка отечественных сертификатов Минцифры.&lt;/strong&gt; С 2022 года российские сайты переводят на национальные сертификаты безопасности. Зарубежные браузеры (Chrome, Edge, Safari) считают их небезопасными и блокируют вход. В Яндекс Браузер эти сертификаты вшиты по умолчанию.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Движок Chromium.&lt;/strong&gt; Браузер разработан на базе Chromium, поэтому он полностью совместим со всеми расширениями и плагинами из интернет-магазина Google Chrome, что позволяет сильно расширить возможности браузера.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Интеграция с российскими компаниями.&lt;/strong&gt; Он идеально оптимизирован под экосистемы отечественных ИТ-продуктов, сервисов и банковских модулей.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;что-нужно-сделать-для-работы-площадок&#34; class=&#34;relative group&#34;&gt;Что нужно сделать для работы площадок? &lt;span class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100&#34;&gt;&lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34; style=&#34;text-decoration-line: none !important;&#34; href=&#34;#%d1%87%d1%82%d0%be-%d0%bd%d1%83%d0%b6%d0%bd%d0%be-%d1%81%d0%b4%d0%b5%d0%bb%d0%b0%d1%82%d1%8c-%d0%b4%d0%bb%d1%8f-%d1%80%d0%b0%d0%b1%d0%be%d1%82%d1%8b-%d0%bf%d0%bb%d0%be%d1%89%d0%b0%d0%b4%d0%be%d0%ba&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h3 id=&#34;1-установка-плагина-госуслуг-и-криптопро&#34; class=&#34;relative group&#34;&gt;1. Установка плагина Госуслуг и КриптоПро &lt;span class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100&#34;&gt;&lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34; style=&#34;text-decoration-line: none !important;&#34; href=&#34;#1-%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%bf%d0%bb%d0%b0%d0%b3%d0%b8%d0%bd%d0%b0-%d0%b3%d0%be%d1%81%d1%83%d1%81%d0%bb%d1%83%d0%b3-%d0%b8-%d0%ba%d1%80%d0%b8%d0%bf%d1%82%d0%be%d0%bf%d1%80%d0%be&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;Убедитесь, что в браузере установлены и активны два расширения:&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,496 @@
+
+
+
+
+
+
+<!doctype html>
+<html
+  lang="ru-ru"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FFFFFF" />
+  
+  <title>Настройка Яндекс Браузера для Госуслуг и ЭЦП в Твери &middot; Компьютерная помощь в Твери</title>
+    <meta name="title" content="Настройка Яндекс Браузера для Госуслуг и ЭЦП в Твери &middot; Компьютерная помощь в Твери" />
+  
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="http://localhost:1313/js/appearance.min.8a082f81b27f3cb2ee528df0b0bdc39787034cf2cc34d4669fbc9977c929023c.js"
+    integrity="sha256-iggvgbJ/PLLuUo3wsL3Dl4cDTPLMNNRmn7yZd8kpAjw="
+  ></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="http://localhost:1313/css/main.bundle.min.77a79972dfd1fba3e37eaab972e5cf479aea24376fc39d827f5760735ebc834e.css"
+    integrity="sha256-d6eZct/R&#43;6Pjfqq5cuXPR5rqJDdvw52Cf1dgc168g04="
+  />
+  
+  
+  
+  
+  
+  
+  
+  <meta
+    name="description"
+    content="
+      Как настроить Яндекс Браузер для работы с ЕИС, Госуслугами и ЭЦП. Пошаговая инструкция по очистке кэша и плагинам от ИТ-мастера в Твери.
+    "
+  />
+  
+  
+  
+  
+    <link rel="canonical" href="http://localhost:1313/posts/2026-05-28-yandex-browser-tver/" />
+  
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="http://localhost:1313/posts/2026-05-28-yandex-browser-tver/">
+	<meta property="og:site_name" content="Компьютерная помощь в Твери">
+	<meta property="og:title" content="Настройка Яндекс Браузера для Госуслуг и ЭЦП в Твери">
+	<meta property="og:description" content="Как настроить Яндекс Браузер для работы с ЕИС, Госуслугами и ЭЦП. Пошаговая инструкция по очистке кэша и плагинам от ИТ-мастера в Твери.">
+	<meta property="og:locale" content="ru_ru">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+
+  
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Настройка Яндекс Браузера для Госуслуг и ЭЦП в Твери">
+	<meta name="twitter:description" content="Как настроить Яндекс Браузер для работы с ЕИС, Госуслугами и ЭЦП. Пошаговая инструкция по очистке кэша и плагинам от ИТ-мастера в Твери.">
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "Настройка Яндекс Браузера для Госуслуг и ЭЦП в Твери",
+    "headline": "Настройка Яндекс Браузера для Госуслуг и ЭЦП в Твери",
+    "description": "Как настроить Яндекс Браузер для работы с ЕИС, Госуслугами и ЭЦП. Пошаговая инструкция по очистке кэша и плагинам от ИТ-мастера в Твери.",
+    "abstract": "\u003cp\u003eСегодня для стабильной работы на российских государственных порталах, электронных торговых площадках (ЭТП) и сервисах вроде Госуслуг, Честного Знака или ЕИС использование отечественного софта стало обязательным требованием. Лучшим решением для этого является Яндекс Браузер.\u003c\/p\u003e\n\u003cp\u003eВ этой статье мы разберем, почему он необходим, какие скрытые настройки сети нужно включить и как подготовить компьютер к работе с государственными ресурсами в Твери.\u003c\/p\u003e\n\u003ch2 id=\u0022почему-именно-яндекс-браузер\u0022 class=\u0022relative group\u0022\u003eПочему именно Яндекс Браузер? \u003cspan class=\u0022absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100\u0022\u003e\u003ca class=\u0022group-hover:text-primary-300 dark:group-hover:text-neutral-700\u0022 style=\u0022text-decoration-line: none !important;\u0022 href=\u0022#%d0%bf%d0%be%d1%87%d0%b5%d0%bc%d1%83-%d0%b8%d0%bc%d0%b5%d0%bd%d0%bd%d0%be-%d1%8f%d0%bd%d0%b4%d0%b5%d0%ba%d1%81-%d0%b1%d1%80%d0%b0%d1%83%d0%b7%d0%b5%d1%80\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\u003c\/span\u003e\u003c\/h2\u003e\u003col\u003e\n\u003cli\u003e\u003cstrong\u003eПоддержка отечественных сертификатов Минцифры.\u003c\/strong\u003e С 2022 года российские сайты переводят на национальные сертификаты безопасности. Зарубежные браузеры (Chrome, Edge, Safari) считают их небезопасными и блокируют вход. В Яндекс Браузер эти сертификаты вшиты по умолчанию.\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003eДвижок Chromium.\u003c\/strong\u003e Браузер разработан на базе Chromium, поэтому он полностью совместим со всеми расширениями и плагинами из интернет-магазина Google Chrome, что позволяет сильно расширить возможности браузера.\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003eИнтеграция с российскими компаниями.\u003c\/strong\u003e Он идеально оптимизирован под экосистемы отечественных ИТ-продуктов, сервисов и банковских модулей.\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003chr\u003e\n\u003ch2 id=\u0022что-нужно-сделать-для-работы-площадок\u0022 class=\u0022relative group\u0022\u003eЧто нужно сделать для работы площадок? \u003cspan class=\u0022absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100\u0022\u003e\u003ca class=\u0022group-hover:text-primary-300 dark:group-hover:text-neutral-700\u0022 style=\u0022text-decoration-line: none !important;\u0022 href=\u0022#%d1%87%d1%82%d0%be-%d0%bd%d1%83%d0%b6%d0%bd%d0%be-%d1%81%d0%b4%d0%b5%d0%bb%d0%b0%d1%82%d1%8c-%d0%b4%d0%bb%d1%8f-%d1%80%d0%b0%d0%b1%d0%be%d1%82%d1%8b-%d0%bf%d0%bb%d0%be%d1%89%d0%b0%d0%b4%d0%be%d0%ba\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\u003c\/span\u003e\u003c\/h2\u003e\u003ch3 id=\u00221-установка-плагина-госуслуг-и-криптопро\u0022 class=\u0022relative group\u0022\u003e1. Установка плагина Госуслуг и КриптоПро \u003cspan class=\u0022absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100\u0022\u003e\u003ca class=\u0022group-hover:text-primary-300 dark:group-hover:text-neutral-700\u0022 style=\u0022text-decoration-line: none !important;\u0022 href=\u0022#1-%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%bf%d0%bb%d0%b0%d0%b3%d0%b8%d0%bd%d0%b0-%d0%b3%d0%be%d1%81%d1%83%d1%81%d0%bb%d1%83%d0%b3-%d0%b8-%d0%ba%d1%80%d0%b8%d0%bf%d1%82%d0%be%d0%bf%d1%80%d0%be\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\u003c\/span\u003e\u003c\/h3\u003e\u003cp\u003eУбедитесь, что в браузере установлены и активны два расширения:\u003c\/p\u003e",
+    "inLanguage": "ru-ru",
+    "url" : "http:\/\/localhost:1313\/posts\/2026-05-28-yandex-browser-tver\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Павел"
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "302"
+  }
+  </script>
+    
+    <script type="application/ld+json">
+    {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/",
+       "name": "Компьютерная Помощь В Твери",
+       "position": 1
+     },
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/posts/",
+       "name": "Posts",
+       "position": 2
+     },
+     {
+       "@type": "ListItem",
+       "name": "Настройка Яндекс Браузера Для Госуслуг И Эцп В Твери",
+       "position": 3
+     }
+   ]
+ }
+  </script>
+
+  
+  
+    <meta name="author" content="Павел" />
+  
+  
+  
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+</head>
+<body
+    class="m-auto flex h-screen max-w-7xl flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="-translate-y-8 rounded-b-lg bg-primary-200 px-3 py-1 text-sm focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="pe-2 font-bold text-primary-600 dark:text-primary-400">&darr;</span
+        >Skip to main content</a
+      >
+    </div>
+    
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >Компьютерная помощь в Твери</a
+  >
+
+    </div>
+    
+    
+      <ul class="flex list-none flex-col text-end sm:flex-row">
+        
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/"
+                  title=""
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Главная</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/posts/"
+                  title=""
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Блог</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="#ZgotmplZ"
+                  title=""
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >+7(903)802-45-20</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="https://t.me/Tver69it"
+                  title=""
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Telegram</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="https://max.ru/u/f9LHodD0cOLZ6l9NP0GNCbDsID6uvwUHyyakdDl7FBhclDgLHSrJsIWEeng"
+                  title=""
+                  
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Max</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+          
+        
+      </ul>
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex grow flex-col">
+      <main id="main-content" class="grow">
+        
+  <article>
+    <header class="max-w-prose">
+      
+      <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Настройка Яндекс Браузера для Госуслуг и ЭЦП в Твери
+      </h1>
+      
+        <div class="mb-10 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+          
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="0001-01-01 00:00:00 &#43;0000 UTC">1 января 1 г.</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+        </div>
+      
+      
+    </header>
+    <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
+      
+      <div class="min-h-0 min-w-0 max-w-prose grow">
+        <p>Сегодня для стабильной работы на российских государственных порталах, электронных торговых площадках (ЭТП) и сервисах вроде Госуслуг, Честного Знака или ЕИС использование отечественного софта стало обязательным требованием. Лучшим решением для этого является Яндекс Браузер.</p>
+<p>В этой статье мы разберем, почему он необходим, какие скрытые настройки сети нужно включить и как подготовить компьютер к работе с государственными ресурсами в Твери.</p>
+<h2 id="почему-именно-яндекс-браузер" class="relative group">Почему именно Яндекс Браузер? <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%d0%bf%d0%be%d1%87%d0%b5%d0%bc%d1%83-%d0%b8%d0%bc%d0%b5%d0%bd%d0%bd%d0%be-%d1%8f%d0%bd%d0%b4%d0%b5%d0%ba%d1%81-%d0%b1%d1%80%d0%b0%d1%83%d0%b7%d0%b5%d1%80" aria-label="Anchor">#</a></span></h2><ol>
+<li><strong>Поддержка отечественных сертификатов Минцифры.</strong> С 2022 года российские сайты переводят на национальные сертификаты безопасности. Зарубежные браузеры (Chrome, Edge, Safari) считают их небезопасными и блокируют вход. В Яндекс Браузер эти сертификаты вшиты по умолчанию.</li>
+<li><strong>Движок Chromium.</strong> Браузер разработан на базе Chromium, поэтому он полностью совместим со всеми расширениями и плагинами из интернет-магазина Google Chrome, что позволяет сильно расширить возможности браузера.</li>
+<li><strong>Интеграция с российскими компаниями.</strong> Он идеально оптимизирован под экосистемы отечественных ИТ-продуктов, сервисов и банковских модулей.</li>
+</ol>
+<hr>
+<h2 id="что-нужно-сделать-для-работы-площадок" class="relative group">Что нужно сделать для работы площадок? <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%d1%87%d1%82%d0%be-%d0%bd%d1%83%d0%b6%d0%bd%d0%be-%d1%81%d0%b4%d0%b5%d0%bb%d0%b0%d1%82%d1%8c-%d0%b4%d0%bb%d1%8f-%d1%80%d0%b0%d0%b1%d0%be%d1%82%d1%8b-%d0%bf%d0%bb%d0%be%d1%89%d0%b0%d0%b4%d0%be%d0%ba" aria-label="Anchor">#</a></span></h2><h3 id="1-установка-плагина-госуслуг-и-криптопро" class="relative group">1. Установка плагина Госуслуг и КриптоПро <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#1-%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%bf%d0%bb%d0%b0%d0%b3%d0%b8%d0%bd%d0%b0-%d0%b3%d0%be%d1%81%d1%83%d1%81%d0%bb%d1%83%d0%b3-%d0%b8-%d0%ba%d1%80%d0%b8%d0%bf%d1%82%d0%be%d0%bf%d1%80%d0%be" aria-label="Anchor">#</a></span></h3><p>Убедитесь, что в браузере установлены и активны два расширения:</p>
+<ul>
+<li><strong>КриптоПро ЭЦП Browser Plug-in</strong> (необходим для работы с ключами на токенах).</li>
+<li><strong>Расширение для плагина Госуслуг</strong> (требуется для входа в личный кабинет организации).</li>
+</ul>
+<h3 id="2-очистка-кэша-и-перезапуск" class="relative group">2. Очистка кэша и перезапуск <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#2-%d0%be%d1%87%d0%b8%d1%81%d1%82%d0%ba%d0%b0-%d0%ba%d1%8d%d1%88%d0%b0-%d0%b8-%d0%bf%d0%b5%d1%80%d0%b5%d0%b7%d0%b0%d0%bf%d1%83%d1%81%d0%ba" aria-label="Anchor">#</a></span></h3><p>Для стабильной работы сайта после всех установок необходимо перезапустить браузер. Также необходимо очистить кеш браузера: нажмите <code>Ctrl + Shift + Delete</code>, выбрать “за все время”, поставить галочки на 2 раздела “Файлы, сохраненные в кеше” и “Файлы cookie и другие данные сайтов и модулей” остальные галочки рекомендуется не ставить. Часто старые сессии мешают инициализации нового токена.</p>
+<hr>
+<div style="padding: 25px; background: #fff; border: 2px solid #fc0; border-radius: 12px; text-align: center; margin: 30px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+    <h3 style="margin-top: 0; margin-bottom: 15px; font-size: 1.2rem; color: #2d3436;">Скачать актуальную версию Яндекс Браузера</h3>
+    <a href="https://redirect.appmetrica.yandex.com/serve/822492654871869356?partner_id=831050&appmetrica_js_redirect=0&full=0&clid=15053476&banerid=1315053477" target="_blank" style="background: #ffcc00; color: #000; padding: 12px 28px; border-radius: 8px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 16px;">
+        📥 Скачать бесплатно
+    </a>
+</div>
+<hr>
+<h2 id="нужна-помощь-в-твери" class="relative group">Нужна помощь в Твери? <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%d0%bd%d1%83%d0%b6%d0%bd%d0%b0-%d0%bf%d0%be%d0%bc%d0%be%d1%89%d1%8c-%d0%b2-%d1%82%d0%b2%d0%b5%d1%80%d0%b8" aria-label="Anchor">#</a></span></h2><p>Настройка рабочего места для бухгалтера, участника госзакупок часто не получается из-за конфликтов версий КриптоПро или операционной системы.</p>
+<p>Если у вас возникают ошибки шифрования, не ставится плагин или государственные сайты упорно «не видят» вашу ЭЦП — свяжитесь со мной. Настрою всё удалённо через Ассистент или приеду к вам лично в Твери!</p>
+
+      </div>
+    </section>
+    <footer class="max-w-prose pt-8 print:hidden">
+      
+  <div class="flex">
+    
+    
+    
+    <div class="place-self-center">
+      
+        <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+          Author
+        </div>
+        <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+          Павел
+        </div>
+      
+      
+      <div class="text-2xl sm:text-lg">
+</div>
+    </div>
+  </div>
+
+
+      
+
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+        </span>
+        <span>
+          
+            <a class="group flex text-right" href="http://localhost:1313/posts/2026-06-03-kak-podpisat-document-ecp/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Как подписать документ электронной подписью (ЭЦП) в Твери</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC">1 января 1 г.</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[-2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+      </main>
+      
+        <div
+          class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12"
+          id="to-top"
+          hidden="true"
+        >
+          <a
+            href="#the-top"
+            class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+            aria-label="Scroll to top"
+            title="Scroll to top"
+          >
+            &uarr;
+          </a>
+        </div>
+      <footer class="py-10 print:hidden">
+  
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            &copy;
+            2026
+            Павел
+        </p>
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    <div class="flex flex-row items-center">
+      
+      
+      
+      
+    </div>
+  </div>
+  
+  
+</footer>
+
+    </div>
+  </body>
+</html>
