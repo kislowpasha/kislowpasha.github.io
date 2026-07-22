@@ -1,6 +1,6 @@
 baseURL = "https://tver-it.ru/"
 locale = "ru-ru"
-title = "Компьютерная помощь в Твери"
+title = "Компьютерная помощь в Твери | Настройка КриптоПро, ЭЦП и IT-поддержка"
 theme = "congo"
 
 [markup]
@@ -9,10 +9,28 @@ theme = "congo"
       unsafe = true
 
 [params]
-  description = "Настройка КриптоПро, ЭЦП, доступ к электронным площадкам. Помощь удаленно через Ассистент в Твери."
+  description = "Компьютерная помощь в Твери. Настройка Windows, КриптоПро CSP, электронных подписей (ЭЦП), Госуслуг, ЕИС, электронных торговых площадок, удаленная IT-поддержка и выезд системного администратора."
+
   themeColor = "light"
   prompt = "pasha@tver-it.ru:~$"
+
   favicon = "/favicon.ico"
+
+  keywords = [
+    "компьютерная помощь Тверь",
+    "системный администратор Тверь",
+    "частный системный администратор Тверь",
+    "настройка КриптоПро",
+    "настройка ЭЦП",
+    "КриптоПро Тверь",
+    "электронная подпись",
+    "ЕИС",
+    "Госуслуги",
+    "Честный Знак",
+    "электронные торговые площадки",
+    "настройка компьютеров",
+    "удаленная компьютерная помощь"
+  ]
 
 [params.author]
   name = "Павел"
@@ -22,6 +40,7 @@ theme = "congo"
   logoHomeLink = "/"
 
 [menu]
+
   [[menu.main]]
     identifier = "home"
     name = "Главная"
@@ -30,7 +49,7 @@ theme = "congo"
 
   [[menu.main]]
     identifier = "posts"
-    name = "Блог"
+    name = "Статьи"
     url = "/posts/"
     weight = 2
 
@@ -42,7 +61,7 @@ theme = "congo"
 
   [[menu.main]]
     identifier = "phone"
-    name = " +7(903)802-45-20"
+    name = "+7 (903) 802-45-20"
     url = "tel:+79038024520"
     weight = 4
 
@@ -54,6 +73,6 @@ theme = "congo"
 
   [[menu.main]]
     identifier = "max"
-    name = "Max"
+    name = "MAX"
     url = "https://max.ru/u/f9LHodD0cOLZ6l9NP0GNCbDsID6uvwUHyyakdDl7FBhclDgLHSrJsIWEeng"
     weight = 6
