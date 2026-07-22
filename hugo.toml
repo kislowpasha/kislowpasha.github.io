@@ -61,8 +61,8 @@ theme = "congo"
 
   [[menu.main]]
    identifier = "phone"
-   name = "Позвонить"
-   url = "+79038024520"
+   name = "+7 (903) 802-45-20"
+   url = "tel:+79038024520"
    weight = 4
 
   [[menu.main]]
