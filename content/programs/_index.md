@@ -9,4 +9,4 @@ layout: "list"
 ## Доступные программы
 
 - [Ассистент для удаленной помощи](/programs/assistant/)
-- [Яндекс Браузер](/programs/yandex-browser/)
+- [Яндекс Браузер](/programs/browser/)
