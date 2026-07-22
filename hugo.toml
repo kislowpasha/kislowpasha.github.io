@@ -60,10 +60,10 @@ theme = "congo"
     weight = 3
 
   [[menu.main]]
-    identifier = "phone"
-    name = "+7 (903) 802-45-20"
-    url = "tel:+79038024520"
-    weight = 4
+   identifier = "phone"
+   name = "Позвонить"
+   url = "tel:+79038024520"
+   weight = 4
 
   [[menu.main]]
     identifier = "telegram"
