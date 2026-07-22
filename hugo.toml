@@ -1,6 +1,6 @@
 baseURL = "https://tver-it.ru/"
 locale = "ru-ru"
-title = "Компьютерная помощь в Твери
+title = "Компьютерная помощь в Твери"
 theme = "congo"
 
 [markup]
