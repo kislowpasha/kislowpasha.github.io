@@ -3,6 +3,11 @@ locale = "ru-ru"
 title = "Компьютерная помощь в Твери"
 theme = "congo"
 
+disableKinds = [
+  "taxonomy",
+  "term"
+]
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -72,3 +77,4 @@ theme = "congo"
     name = "MAX"
     url = "https://max.ru/u/f9LHodD0cOLZ6l9NP0GNCbDsID6uvwUHyyakdDl7FBhclDgLHSrJsIWEeng"
     weight = 6
+    
